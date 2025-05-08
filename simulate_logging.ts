@@ -100,7 +100,7 @@ const processPdf = wrapTraced(async (pdfFile: { filename: string; path: string; 
         return;
     }
     // Console log that the summary was created
-    console.log(`\nEarnings Summary for ${pdfFile.filename}: Summary Created! View in the Braintrust UI}\n`);
+    console.log(`\nEarnings Summary for ${pdfFile.filename}: Summary Created! View in the Braintrust UI!\n`);
 
     // log the output of the LLM call to the root span
     rootSpan.log({
