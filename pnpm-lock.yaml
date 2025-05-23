@@ -11,10 +11,16 @@ importers:
       braintrust:
         specifier: ^0.0.201
         version: 0.0.201(openai@4.97.0(zod@3.24.4))(react@19.1.0)(sswr@2.2.0(svelte@5.28.2))(svelte@5.28.2)(vue@3.5.13(typescript@5.8.3))(zod@3.24.4)
+      dotenv:
+        specifier: ^16.1.4
+        version: 16.5.0
       openai:
         specifier: ^4.97.0
         version: 4.97.0(zod@3.24.4)
     devDependencies:
+      '@types/dotenv':
+        specifier: ^8.2.0
+        version: 8.2.3
       '@types/node':
         specifier: ^22.15.14
         version: 22.15.14
@@ -328,6 +334,10 @@ packages:
 
   '@types/diff-match-patch@1.0.36':
     resolution: {integrity: sha512-xFdR6tkm0MWvBfO8xXCSsinYxHcqkQUlcHeSpMC2ukzOb6lwQAfDmW+Qt0AvlGd8HpsS28qKsB+oPeJn9I39jg==}
+
+  '@types/dotenv@8.2.3':
+    resolution: {integrity: sha512-g2FXjlDX/cYuc5CiQvyU/6kkbP1JtmGzh0obW50zD7OKeILVL0NSpPWLXVfqoAGQjom2/SLLx9zHq0KXvD6mbw==}
+    deprecated: This is a stub types definition. dotenv provides its own type definitions, so you do not need this installed.
 
   '@types/estree@1.0.7':
     resolution: {integrity: sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==}
@@ -1284,6 +1294,10 @@ snapshots:
   '@tsconfig/node16@1.0.4': {}
 
   '@types/diff-match-patch@1.0.36': {}
+
+  '@types/dotenv@8.2.3':
+    dependencies:
+      dotenv: 16.5.0
 
   '@types/estree@1.0.7': {}
 
